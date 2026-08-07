@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #00282e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+}
+
+h2 {
+  color: #ffbd13;
+  top: 146px;
+  left: 862px;
+}
+
+label {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+.image-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+}
+#image {
+  padding: 4px;
+  margin: 4px;
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin: auto;
+}

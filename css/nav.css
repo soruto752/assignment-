@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: darkblue;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  gap: 30px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  list-style: none;
+  gap: 30px;
+  color: #ffffff;
+}

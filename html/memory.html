@@ -1,0 +1,189 @@
+<!doctype html>
+<!-- body container -->
+<html>
+  <head>
+    <title>memory web</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This is Ireoluwa portfolio website" />
+    <meta name="author" content="Ireoluwa" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/mermory.css" />
+    <link rel="stylesheet" href="../js/mermory.js" />
+  </head>
+
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a href="#about">ABOUT</a>
+      </li>
+      <li>
+        <a href="#contact">CONTACT</a>
+      </li>
+      <li>
+        <a href="#home">HOME</a>
+      </li>
+      <li>
+        <a href="#product">PRODUCT</a>
+      </li>
+      <li>
+        <a href="#mermory verses">MEMORY VERSES</a>
+      </li>
+      <li>
+        <a href="#get spirtual">GET SPIRITUAL</a>
+      </li>
+    </ul>
+  </nav>
+
+  <body>
+    <div class="image-div">
+      <img src="./assets/image copy.png" id="image" />
+      <img src="./assets/image.png" id="image" />
+    </div>
+    <div class="p-div">
+      <p>
+        this web allows you and your children to explore the bible through
+        mermory verse and watch videos and play games
+      </p>
+    </div>
+    <div id="classes"></div>
+
+    <section>
+      <div>
+        <h1>books of the bible</h1>
+        <p id="bible-chapter"></p>
+      </div>
+    </section>
+
+    <section>
+      <div id="button-div">
+        <button>memory verse</button>
+      </div>
+      <div>
+        <h2>part 1</h2>
+        <p>ephesian 6:1</p>
+        <p>Children ,obey your parentsin the lord for it is right</p>
+        <p>page 1</p>
+      </div>
+      <div>
+        <p>colossians 3:23</p>
+        <p>And whatever you do it heartly,as to Lord and not to men</p>
+        <p>page 2</p>
+      </div>
+      <div>
+        <p>Matthew 5:16</p>
+        <p>
+          let your light so before men that they goods works and glorify your
+          father in heaven
+        </p>
+        <p>page 3</p>
+      </div>
+      <div>
+        <p>2 corithians 5:17</p>
+        <p>
+          Therefore if anyone he is in christ, he is a new creation old thing
+          have passed away behold , all things have become new
+        </p>
+        <p>page 4</p>
+      </div>
+    </section>
+    <script>
+      function mermorydetails() {
+        let mermorychapters = [
+          "ephesian 6:1",
+          "colossians 3:23",
+          "matthew 5:16",
+        ];
+        let mermoryverses = [
+          "Children ,obey your parentsin the lord for it is right",
+          "And whatever you do it heartly,as to Lord and not to men",
+          "let your light so before men that they goods works and glorify your father in heaven",
+          "herefore if anyone he is in christ, he is a new creation old thing have  passed away behold , all things have become new",
+        ];
+        let mermorypage = ["one", "two", "three", "four"];
+      }
+
+      const biblebooks = [
+        "Genesis",
+        " Exodus",
+        "Leviticus",
+        "Numbers",
+        "Deuteronomy",
+        "Joshua",
+        " Judges",
+        "Ruth",
+        " 1 Samuel",
+        "2 Samuel",
+        "1 Kings",
+        "2 Kings",
+        "1 Chronicles",
+        "2 Chronicles",
+        "Ezra",
+        "Nehemiah",
+        " Esther",
+        "Job",
+        " Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Song of Solomon",
+        "Isaiah",
+        "Jeremiah",
+        "Lamentations",
+        " Ezekiel",
+        "Daniel",
+        "Hosea",
+        " Joel",
+        " Amos",
+        "Obadiah",
+        "Jonah",
+        " Micah",
+        "Nahum",
+        " Habakkuk",
+        "Zephaniah",
+        "Haggai",
+        "Zechariah",
+        "Malachi",
+        "Matthew",
+        "Mark",
+        " Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Colossians",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "1 Timothy",
+        "2 Timothy",
+        " Titus",
+        " Philemon",
+        " Hebrews",
+        "James",
+        "1 Testament (Peter 1, Peter 2)",
+        " 1 John",
+        " 2 John",
+        "3 John",
+        "Jude",
+        " Revelation",
+      ];
+      document.getElementById("bible-chapter").innerHTML =
+        biblebooks.toString();
+
+      //Arrays are Objects
+      const apostleDetails = ["Simon", "Peter", 75];
+      const apostleProfile = { firstName: "Simon", lastName: "Peter", age: 75 };
+
+      const bibleverseorder = (myArray[0] = biblebooks);
+      myArray[1] = mermorydetails;
+      myArray[2] = apostleProfile;
+
+      const classes = new Array(ss1, ss2, ss3);
+      let classestring = classes.toString();
+      document.getElementById("classes").innerHTML = classestring;
+    </script>
+  </body>
+</html>
