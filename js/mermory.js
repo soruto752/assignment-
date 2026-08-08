@@ -1,16 +1,25 @@
-const cars = ["saab", "volvo", "bmw"];
-let car = cars[1];
-cars[1] = "toyato";
-console.log(cars);
 //1
-const stundent = ["ireoluwa", "9", "css", "false"];
-console.log("stundent");
+const student = ["ireoluwa", "9", "JavaScript", true];
+
+console.log(student);
+
+console.log(student[1]);
+
+console.log(student[student.length - 1]);
+
+console.log(student.length);
+
 //2
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits[1] = "pineapple";
+
+fruits[1] = "Pineapple";
+
 console.log(fruits);
-let fruitstring = fruits.toString;
-console.log("fruitstring");
+
+const fruitString = fruits.toString();
+
+console.log(fruitString);
+
 //3
 const myData = [
   "Hello World",
@@ -19,7 +28,12 @@ const myData = [
   { name: "Alex", age: 30 },
   ["apple", "banana", "cherry"],
 ];
-console.log(myData);
+
+console.log("Entire array:", myData);
+console.log("The object:", myData[3]);
+console.log("The nested array:", myData[4]);
+console.log("Number of elements:", myData.length);
+
 //4
 let cars = [];
 
