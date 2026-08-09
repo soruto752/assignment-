@@ -1,5 +1,5 @@
 //1
-const student = ["ireoluwa", "9", "JavaScript", true];
+const student = ["ireoluwa", 9, "css", true];
 
 console.log(student);
 
