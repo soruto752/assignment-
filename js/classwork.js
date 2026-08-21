@@ -30,3 +30,31 @@ console.log(product);
 let stundentstring = stundent.toString;
 console.log(stundentstring);
 console.log(student.length);
+
+//4
+const watchlist = [
+  "Inception",
+  "Interstellar",
+  "The Dark Knight",
+  "Avatar",
+  "Gladiator",
+];
+watchlist[0] = "spiderman";
+console.log(watchlist);
+watchlist[2] = "henry danger";
+console.log(watchlist[4]);
+console.log(watchlist[0]);
+console.log(watchlist);
+console.log(watchlist.length);
+console.log(watchlist.toString);
+
+//5
+const delivery = ["John", "12 Bodija Road", "ORD-1024", "Processing"];
+
+console.log(delivery[0]);
+console.log(delivery[2]);
+console.log(delivery[3]);
+delivery[4] = "shipped";
+console.log(delivery);
+console.log(delivery.toString);
+console.log(delivery.length);
