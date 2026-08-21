@@ -29,7 +29,7 @@ stundent[4] = false;
 console.log(product);
 let stundentstring = stundent.toString;
 console.log(stundentstring);
-console.log(student.length);
+console.log(stundent.length);
 
 //4
 const watchlist = [
