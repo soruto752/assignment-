@@ -1,5 +1,5 @@
 //1
-const order = ["jollof rice,malt,chicken"];
+const order = ["jollof rice", "malt", "chicken"];
 console.log(order[0]);
 console.log(order[order.length - 1]);
 order[1] = "coke";
