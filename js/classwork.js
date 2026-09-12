@@ -58,3 +58,57 @@ delivery[4] = "shipped";
 console.log(delivery);
 console.log(delivery.toString);
 console.log(delivery.length);
+
+const riverwaste = ["plastic", "can", "bottle", "paper", "glass"];
+const recyclebin = ["carton"];
+
+const recycle = riverwaste.pop();
+const waste = riverwaste.pop();
+
+recyclebin.push(recycle);
+recyclebin.push(waste);
+
+const mixedWaste = ["Plastic", "Glass", "Paper", "Can", "Bottle"];
+const recyclable = ["Carton"];
+
+const Waste = mixedWaste.pop();
+const bin = mixedWaste.pop();
+
+recyclable.push(waste);
+recyclable.push(bin);
+recyclable = arr.toSpliced(0, 1, arr.at(-1)).toSpliced(-1, 1, arr[0]);
+const dirt = recyclable.pop();
+mixedWaste.push(dirt);
+mixedWaste[1] = "metal";
+console.log(mixedWaste);
+console.log(recyclable);
+console.log(mixedWaste.length);
+console.log(recyclable.length);
+
+//2
+const mainStore = ["Tank A", "Tank B", "Tank C", "Tank D"];
+const fieldStation = ["Tank X", "Tank Y"];
+
+const liquid = fieldStation.pop();
+const water = fieldStation.pop();
+
+fieldStation.push(water);
+fieldStation.push(liquid);
+
+fieldStation = arr.toSpliced(0, 1, arr.at(-1)).toSpliced(-1, 1, arr[0]);
+const station = fieldStation.pop();
+mainStore.push(station);
+mainStore.push("TankE");
+const store = mainStore.pop();
+fieldStation.push(store);
+console.log(fieldStation[0]);
+console.log(mainStore[0]);
+//3
+const nursery = ["Mango", "Orange", "Coconut", "Palm", "Guava"];
+const plantingSite = ["Neem"];
+const seedling1 = nursery.pop();
+plantingSite.push(seedling1);
+const seedling2 = nursery.pop();
+plantingSite.push(seedling2);
+const seedling3 = nursery.pop();
+plantingSite.push(seedling3);
