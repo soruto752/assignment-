@@ -112,3 +112,16 @@ const seedling2 = nursery.pop();
 plantingSite.push(seedling2);
 const seedling3 = nursery.pop();
 plantingSite.push(seedling3);
+[arr[1], arr[arr.length - 1]] = [arr[arr.length - 1], arr[1]];
+const SEED = plantingSite.pop();
+
+nursery.push(SEED);
+nursery.push(mahgohny);
+
+const seed = nursery.pop();
+
+plantingSite.push(seed);
+console.log(plantingSite);
+console.log(nursery);
+console.log(nursery.length);
+console.log(plantingSite.length);
