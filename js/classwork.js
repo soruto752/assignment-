@@ -76,7 +76,9 @@ const bin = mixedWaste.pop();
 
 recyclable.push(waste);
 recyclable.push(bin);
-recyclable = arr.toSpliced(0, 1, arr.at(-1)).toSpliced(-1, 1, arr[0]);
+const firstitem = recyclable[0];
+const lastitem = recyclable.length - 1;
+recyclable[0] = lastitem;
 const dirt = recyclable.pop();
 mixedWaste.push(dirt);
 mixedWaste[1] = "metal";
