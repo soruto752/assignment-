@@ -1,5 +1,5 @@
 //1
-const student = ["ireoluwa", "9", "JavaScript", true];
+const student = ["Ireoluwa", 9, "css", true];
 
 console.log(student);
 
@@ -60,3 +60,5 @@ console.log("Total number of movies:", movies.length);
 
 let moviesString = movies.tostring;
 console.log(" moviesString");
+
+//bloxdio

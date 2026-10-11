@@ -1,0 +1,10 @@
+const waste = ["Plastic", "Plastic", "Glass", "Paper", "Plastic"];
+console.log(waste[0]);
+console.log(waste[4]);
+console.log(waste.length);
+waste[3] = "metal";
+waste.splice(2, 0, "organic");
+console.log(waste);
+let reportstring = waste.toString;
+console.log(reportstring);
+console.log(waste.length);
