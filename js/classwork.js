@@ -79,6 +79,7 @@ recyclable.push(bin);
 const firstitem = recyclable[0];
 const lastitem = recyclable.length - 1;
 recyclable[0] = lastitem;
+recyclable[recycle.length-1]=firstitem
 const dirt = recyclable.pop();
 mixedWaste.push(dirt);
 mixedWaste[1] = "metal";
@@ -97,7 +98,10 @@ const water = fieldStation.pop();
 fieldStation.push(water);
 fieldStation.push(liquid);
 
-fieldStation = arr.toSpliced(0, 1, arr.at(-1)).toSpliced(-1, 1, arr[0]);
+const firstitem1 = fieldStation[0];
+const lastitem1 = fieldStation.length - 1;
+fieldStation[0] = lastitem;
+[fieldStation.length-1]=firstitem
 const station = fieldStation.pop();
 mainStore.push(station);
 mainStore.push("TankE");
@@ -114,8 +118,12 @@ const seedling2 = nursery.pop();
 plantingSite.push(seedling2);
 const seedling3 = nursery.pop();
 plantingSite.push(seedling3);
-[arr[1], arr[arr.length - 1]] = [arr[arr.length - 1], arr[1]];
+
 const SEED = plantingSite.pop();
+const seconditem = plantingSite[1];
+const lastitem2 = plantingSite.length - 1;
+plantingSite[1] = lastitem;
+plantingSite[plantingSite.length-1]=firstitem
 
 nursery.push(SEED);
 nursery.push(mahgohny);
